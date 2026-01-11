@@ -205,6 +205,15 @@ npm test
 - **Bias Detection** - Automatic detection of biased language
 - **Data Validation** - Schema-based data integrity checks
 
+
+## 👉 User Interface
+![Main Interface](Screenshot 2026-01-11 200605.png)
+
+## 🧾 Result
+!(Screenshot 2026-01-11 200638)
+!(Screenshot 2026-01-11 200659)
+!(Screenshot 2026-01-11 200715)
+!(Screenshot 2026-01-11 200737)
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
