@@ -17,20 +17,20 @@ graph TB
         CF[Constraint Form]
         RD[Results Display]
     end
-    
+
     subgraph "Backend Layer"
         API[Express.js API]
         CE[Comparison Engine]
         RV[Rule Validator]
     end
-    
+
     subgraph "Data Layer"
         AWS[AWS Dataset]
         Azure[Azure Dataset]
         GCP[GCP Dataset]
         Rules[Comparison Rules]
     end
-    
+
     UI --> CF
     CF --> API
     API --> CE
@@ -39,7 +39,8 @@ graph TB
     CE --> Azure
     CE --> GCP
     CE --> Rules
-    RD <-- API
+    API -->|response data| RD
+
 ```
 
 ### Frontend Architecture
