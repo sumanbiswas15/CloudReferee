@@ -1,4 +1,4 @@
-# Cloud Platform Comparison Tool
+# CloudReferee a Cloud Platform Comparison Tool
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D%2018.0.0-brightgreen)](https://nodejs.org/)
@@ -8,7 +8,7 @@
 
 ## 🎯 Overview
 
-The Cloud Platform Comparison Tool is a deterministic, constraint-driven web application that provides **neutral, unbiased comparisons** of the three major cloud platforms. Unlike traditional comparison tools that may favor specific providers, this tool uses transparent, rule-based logic to generate personalized recommendations based on your specific requirements.
+CloudReferee the Cloud Platform Comparison Tool is a deterministic, constraint-driven web application that provides **neutral, unbiased comparisons** of the three major cloud platforms. Unlike traditional comparison tools that may favor specific providers, this tool uses transparent, rule-based logic to generate personalized recommendations based on your specific requirements.
 
 ### ✨ Key Features
 
