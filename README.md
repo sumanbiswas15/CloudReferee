@@ -207,13 +207,14 @@ npm test
 
 
 ## 👉 User Interface
-![Main Interface](Screenshot 2026-01-11 200605.png)
+![Main Interface](ui.png)
 
 ## 🧾 Result
-!(Screenshot 2026-01-11 200638)
-!(Screenshot 2026-01-11 200659)
-!(Screenshot 2026-01-11 200715)
-!(Screenshot 2026-01-11 200737)
+![](r1.png)
+![](r2.png)
+![](r3.png)
+![](r4.png)
+
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
