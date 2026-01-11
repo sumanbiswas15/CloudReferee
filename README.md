@@ -288,12 +288,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by the need for unbiased cloud platform guidance
 - Designed with transparency and neutrality as core principles
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-username/cloud-platform-comparison-tool/issues)
-- **Documentation**: [Project Wiki](https://github.com/your-username/cloud-platform-comparison-tool/wiki)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/cloud-platform-comparison-tool/discussions)
-
 ---
 
 **Made with ❤️ for the developer community**
