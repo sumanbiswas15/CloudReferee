@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Platform Comparison Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cloud Platform Comparison Tool</h1>
+            <p class="subtitle">An impartial technical referee for comparing AWS, Azure, and GCP</p>
+        </header>
+
+        <main>
+            <section id="constraint-form" class="form-section">
+                <h2>Select Your Requirements</h2>
+                <form id="comparison-form">
+                    <div class="form-group">
+                        <label for="budget">Budget Level: <span class="required">*</span></label>
+                        <select id="budget" name="budget" required>
+                            <option value="">Select budget level</option>
+                            <option value="low">Low Budget - Cost-conscious with emphasis on free tiers</option>
+                            <option value="medium">Medium Budget - Balanced approach considering cost and features</option>
+                            <option value="high">High Budget - Premium approach prioritizing advanced features</option>
+                        </select>
+                        <small class="help-text">Choose based on your organization's budget constraints</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">Experience Level: <span class="required">*</span></label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select experience level</option>
+                            <option value="beginner">Beginner - New to cloud platforms, prioritizing ease of use</option>
+                            <option value="intermediate">Intermediate - Some cloud experience, comfortable with moderate complexity</option>
+                            <option value="expert">Expert - Extensive cloud experience, comfortable with advanced features</option>
+                        </select>
+                        <small class="help-text">Select based on your team's cloud platform experience</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="workload">Workload Type: <span class="required">*</span></label>
+                        <select id="workload" name="workload" required>
+                            <option value="">Select workload type</option>
+                            <option value="startup">Startup - Small to medium applications with growth potential</option>
+                            <option value="enterprise">Enterprise - Large-scale applications requiring compliance and support</option>
+                            <option value="research">Research - Data-intensive and experimental workloads requiring AI/ML</option>
+                        </select>
+                        <small class="help-text">Choose the type that matches your primary use case</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Priorities (select at least one): <span class="required">*</span></label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="cost"> 
+                                <span class="checkmark"></span>
+                                Cost Optimization - Minimize total cost of ownership
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="scalability"> 
+                                <span class="checkmark"></span>
+                                Global Scalability - Handle growth and traffic spikes
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="ease-of-use"> 
+                                <span class="checkmark"></span>
+                                Ease of Use - Simple setup and intuitive interfaces
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="compliance"> 
+                                <span class="checkmark"></span>
+                                Compliance - Meet regulatory requirements and security standards
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="devops"> 
+                                <span class="checkmark"></span>
+                                DevOps Focus - Support modern development practices and automation
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="aiml"> 
+                                <span class="checkmark"></span>
+                                AI/ML Workloads - Advanced artificial intelligence and machine learning
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="performance"> 
+                                <span class="checkmark"></span>
+                                High Performance - Maximum speed and low latency requirements
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="reliability"> 
+                                <span class="checkmark"></span>
+                                Reliability - High availability and disaster recovery
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="innovation"> 
+                                <span class="checkmark"></span>
+                                Innovation - Access to latest technologies and services
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="support"> 
+                                <span class="checkmark"></span>
+                                Enterprise Support - Premium support and SLA guarantees
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="integration"> 
+                                <span class="checkmark"></span>
+                                Integration - Easy integration with existing systems
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="priorities" value="security"> 
+                                <span class="checkmark"></span>
+                                Security - Advanced security features and certifications
+                            </label>
+                        </div>
+                        <small class="help-text">Select all priorities that are important for your project</small>
+                    </div>
+
+                    <button type="submit" id="compare-btn">Compare Platforms</button>
+                </form>
+            </section>
+
+            <section id="results" class="results-section" style="display: none;">
+                <h2>Comparison Results</h2>
+                <div class="results-header">
+                    <p class="disclaimer">
+                        <strong>Impartial Analysis:</strong> This comparison is generated using deterministic rules 
+                        without bias toward any provider. All results are based on structured data and transparent logic.
+                    </p>
+                </div>
+                <div id="results-content"></div>
+                <div class="results-footer">
+                    <p class="methodology">
+                        <strong>Methodology:</strong> Results are calculated using constraint-based weighting across 
+                        multiple evaluation dimensions including cost, scalability, ease of use, and ecosystem maturity.
+                    </p>
+                </div>
+            </section>
+
+            <section id="error" class="error-section" style="display: none;">
+                <h2>Error</h2>
+                <div id="error-content"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

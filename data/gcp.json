@@ -1,0 +1,103 @@
+{
+  "provider": {
+    "name": "gcp",
+    "displayName": "Google Cloud Platform (GCP)",
+    "lastUpdated": "2024-01-01T00:00:00.000Z"
+  },
+  "dimensions": {
+    "cost": {
+      "pricingModel": "Pay-as-you-go with sustained use discounts and committed use",
+      "freeTrierOffering": {
+        "duration": "12 months + always free tier",
+        "services": "Compute Engine, Cloud Storage, BigQuery, Cloud Functions",
+        "limitations": "Generous always-free tier with specific usage limits"
+      },
+      "costPredictability": 8,
+      "budgetFriendliness": 8
+    },
+    "easeOfUse": {
+      "learningCurve": 7,
+      "documentation": 8,
+      "setupComplexity": 7,
+      "uiIntuitiveness": 8
+    },
+    "scalability": {
+      "globalPresence": 8,
+      "autoScaling": 9,
+      "performanceConsistency": 9,
+      "infrastructureMaturity": 8
+    },
+    "ecosystem": {
+      "serviceCount": 7,
+      "integrationOptions": 7,
+      "thirdPartySupport": 6,
+      "communitySize": 6
+    },
+    "devops": {
+      "cicdSupport": 7,
+      "automationTools": 7,
+      "containerSupport": 9,
+      "infrastructureAsCode": 7
+    },
+    "aiml": {
+      "mlServices": 10,
+      "dataProcessing": 10,
+      "pretrainedModels": 9,
+      "customModelSupport": 9
+    },
+    "enterprise": {
+      "compliance": 8,
+      "support": 7,
+      "sla": 8,
+      "securityFeatures": 8
+    },
+    "vendorLockIn": {
+      "portability": 7,
+      "standardsCompliance": 8,
+      "exitStrategy": 7
+    }
+  },
+  "strengths": [
+    "Leading AI/ML and data analytics capabilities",
+    "Excellent container and Kubernetes support (originated Kubernetes)",
+    "Transparent and predictable pricing model",
+    "Strong performance and global network infrastructure",
+    "Innovation in serverless and cloud-native technologies",
+    "Clean, intuitive user interface",
+    "Strong commitment to open source and standards"
+  ],
+  "weaknesses": [
+    "Smallest service portfolio among the big three",
+    "Fewer enterprise features and compliance certifications",
+    "Limited third-party ecosystem compared to AWS/Azure",
+    "Smaller market share and community",
+    "Less mature enterprise support organization",
+    "Fewer global regions than AWS"
+  ],
+  "idealUseCases": [
+    "Data analytics and machine learning projects",
+    "Container-based and cloud-native applications",
+    "Startups and tech companies prioritizing innovation",
+    "Organizations requiring transparent pricing",
+    "Big data processing and analytics workloads",
+    "Development teams focused on modern architectures"
+  ],
+  "tradeOffs": {
+    "gains": [
+      "High-quality AI/ML and data services",
+      "Strong container and Kubernetes support",
+      "Transparent, predictable pricing",
+      "Excellent performance and network",
+      "Innovation leadership in cloud-native tech",
+      "Clean, modern user experience"
+    ],
+    "losses": [
+      "Smaller service catalog and ecosystem",
+      "Fewer enterprise features and certifications",
+      "Limited third-party integrations",
+      "Smaller community and market presence",
+      "Less mature enterprise support",
+      "Fewer compliance options"
+    ]
+  }
+}

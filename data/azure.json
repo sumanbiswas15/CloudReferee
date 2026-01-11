@@ -1,0 +1,101 @@
+{
+  "provider": {
+    "name": "azure",
+    "displayName": "Microsoft Azure",
+    "lastUpdated": "2024-01-01T00:00:00.000Z"
+  },
+  "dimensions": {
+    "cost": {
+      "pricingModel": "Pay-as-you-go with hybrid benefits and reserved instances",
+      "freeTrierOffering": {
+        "duration": "12 months",
+        "services": "750 hours VMs, 5GB blob storage, SQL Database",
+        "limitations": "Limited to specific tiers and usage amounts"
+      },
+      "costPredictability": 7,
+      "budgetFriendliness": 7
+    },
+    "easeOfUse": {
+      "learningCurve": 6,
+      "documentation": 7,
+      "setupComplexity": 6,
+      "uiIntuitiveness": 7
+    },
+    "scalability": {
+      "globalPresence": 9,
+      "autoScaling": 8,
+      "performanceConsistency": 8,
+      "infrastructureMaturity": 9
+    },
+    "ecosystem": {
+      "serviceCount": 8,
+      "integrationOptions": 9,
+      "thirdPartySupport": 7,
+      "communitySize": 7
+    },
+    "devops": {
+      "cicdSupport": 9,
+      "automationTools": 8,
+      "containerSupport": 8,
+      "infrastructureAsCode": 8
+    },
+    "aiml": {
+      "mlServices": 8,
+      "dataProcessing": 8,
+      "pretrainedModels": 9,
+      "customModelSupport": 7
+    },
+    "enterprise": {
+      "compliance": 9,
+      "support": 9,
+      "sla": 9,
+      "securityFeatures": 9
+    },
+    "vendorLockIn": {
+      "portability": 6,
+      "standardsCompliance": 7,
+      "exitStrategy": 6
+    }
+  },
+  "strengths": [
+    "Strong integration with Microsoft ecosystem (Office 365, Windows)",
+    "Excellent hybrid cloud capabilities",
+    "Competitive pricing with hybrid benefits",
+    "Strong enterprise support and relationships",
+    "Good balance of services without overwhelming complexity",
+    "Excellent DevOps integration with Azure DevOps",
+    "Strong AI services, especially cognitive services"
+  ],
+  "weaknesses": [
+    "Smaller service portfolio compared to AWS",
+    "Less mature in some areas (containers, serverless)",
+    "Fewer global regions than AWS",
+    "Some services still catching up to AWS feature parity",
+    "Documentation can be inconsistent",
+    "Third-party ecosystem not as extensive as AWS"
+  ],
+  "idealUseCases": [
+    "Organizations already using Microsoft technologies",
+    "Hybrid cloud deployments",
+    "Enterprise applications requiring strong support",
+    "Windows-based workloads and .NET applications",
+    "Organizations prioritizing cost optimization",
+    "DevOps-focused teams using Microsoft toolchain"
+  ],
+  "tradeOffs": {
+    "gains": [
+      "Seamless Microsoft ecosystem integration",
+      "Strong hybrid cloud capabilities",
+      "Competitive pricing and licensing benefits",
+      "Excellent enterprise support",
+      "Good balance of features and complexity"
+    ],
+    "losses": [
+      "Smaller service catalog than AWS",
+      "Less mature in some emerging technology areas",
+      "Fewer global regions and availability zones",
+      "Smaller third-party ecosystem",
+      "Some vendor lock-in to Microsoft stack"
+    ]
+  }
+}

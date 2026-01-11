@@ -1,0 +1,101 @@
+{
+  "provider": {
+    "name": "aws",
+    "displayName": "Amazon Web Services (AWS)",
+    "lastUpdated": "2024-01-01T00:00:00.000Z"
+  },
+  "dimensions": {
+    "cost": {
+      "pricingModel": "Pay-as-you-go with volume discounts and reserved instances",
+      "freeTrierOffering": {
+        "duration": "12 months",
+        "services": "750 hours EC2, 5GB S3, RDS micro instances",
+        "limitations": "Limited to specific instance types and usage levels"
+      },
+      "costPredictability": 6,
+      "budgetFriendliness": 6
+    },
+    "easeOfUse": {
+      "learningCurve": 4,
+      "documentation": 8,
+      "setupComplexity": 5,
+      "uiIntuitiveness": 6
+    },
+    "scalability": {
+      "globalPresence": 10,
+      "autoScaling": 9,
+      "performanceConsistency": 8,
+      "infrastructureMaturity": 10
+    },
+    "ecosystem": {
+      "serviceCount": 10,
+      "integrationOptions": 9,
+      "thirdPartySupport": 8,
+      "communitySize": 9
+    },
+    "devops": {
+      "cicdSupport": 8,
+      "automationTools": 9,
+      "containerSupport": 8,
+      "infrastructureAsCode": 9
+    },
+    "aiml": {
+      "mlServices": 9,
+      "dataProcessing": 9,
+      "pretrainedModels": 8,
+      "customModelSupport": 8
+    },
+    "enterprise": {
+      "compliance": 9,
+      "support": 8,
+      "sla": 9,
+      "securityFeatures": 9
+    },
+    "vendorLockIn": {
+      "portability": 4,
+      "standardsCompliance": 6,
+      "exitStrategy": 5
+    }
+  },
+  "strengths": [
+    "Comprehensive service portfolio with 200+ services",
+    "Global infrastructure with 33 regions and 105 availability zones",
+    "Market leadership and enterprise adoption",
+    "Extensive third-party integrations and marketplace",
+    "Strong compliance certifications and security features",
+    "Mature DevOps and automation tools",
+    "Advanced AI/ML services and pre-trained models"
+  ],
+  "weaknesses": [
+    "Complex pricing structure with many variables",
+    "Steep learning curve for beginners",
+    "Can become expensive without proper optimization",
+    "Service complexity can lead to over-engineering",
+    "Higher vendor lock-in risk due to proprietary services",
+    "UI can be overwhelming for new users"
+  ],
+  "idealUseCases": [
+    "Large enterprise applications requiring comprehensive services",
+    "Scalable web applications with global reach",
+    "Data analytics and machine learning workloads",
+    "Legacy application migration and modernization",
+    "Compliance-heavy industries (healthcare, finance)",
+    "Startups planning for rapid scale"
+  ],
+  "tradeOffs": {
+    "gains": [
+      "Market-leading service breadth and depth",
+      "Proven enterprise reliability and support",
+      "Extensive global infrastructure",
+      "Strong ecosystem and community",
+      "Advanced security and compliance features"
+    ],
+    "losses": [
+      "Higher complexity and learning curve",
+      "Potentially higher costs without optimization",
+      "Increased vendor lock-in risk",
+      "Overwhelming choice of services",
+      "Steeper operational overhead"
+    ]
+  }
+}
